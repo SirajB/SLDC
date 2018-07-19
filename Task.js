@@ -6,7 +6,7 @@ class Task{
     }
     showTask(){
       // var task = new Company()
-      return this.showTasks()
+      return this.taskList
     }
     
 }
