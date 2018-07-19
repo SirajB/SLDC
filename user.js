@@ -37,7 +37,7 @@ class User {
     finishTask(i){
         console.log(`You currently have ${this.acceptedTask.length} task(s) accepted.\nThe task(s) you have accepted is/are ${this.acceptedTask}.`)
         if (i>this.acceptedTask.length){
-            return `You cannot accept a task which does not exist`
+            return `You cannot complete a task which does not exist`
         }else if (i<1){
             return `Please pick a task to complete from 1 to ${this.acceptedTask.length}`
         } else {
